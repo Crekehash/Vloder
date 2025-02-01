@@ -43,6 +43,21 @@ div:hover{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
 }
+@media (max-width:676px) {
+    .center {
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+}
+@media (max-width:162px) {
+    .center {
+        grid-template-columns: 1fr 1fr;
+    }
+}
+@media (max-width:800px) {
+    .center {
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+}
 .movies-area{
     /* height: 500px; */
     height: fit-content;
