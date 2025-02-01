@@ -60,7 +60,23 @@ check = 0
 
 
 
+var ava7349875 = document.querySelector("#m4a")
+var avo84284 = document.querySelector("#m4l")
+var check=0
+ava7349875 .addEventListener("mouseover",function(){
+if(check==0){
+    avo84284.style.opacity = "100%"
+}
+check = 1
 
+})
+ava7349875 .addEventListener("mouseout",function(){
+if(check==1){
+    avo84284.style.opacity = "0%"
+}
+check = 0
+
+})
 
 
 
